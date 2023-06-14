@@ -7,7 +7,7 @@ pipeline{
    stages{
        stage("param demo"){
            steps{
-               echo "Hi ${name} Welcome to ${locality}"
+               echo "Hi ${name} Welcome to PALAKKAD ${locality}"
            }
        }
    }    
